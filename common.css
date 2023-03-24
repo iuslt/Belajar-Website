@@ -52,23 +52,9 @@ main {
     margin: 0.5rem 0;
 }
 
-footer {
-    background: #4CAF50;
-    color: white;
-    text-align: center;
-    padding: 1rem;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    border-top: 5px solid #3b913d;
-}
-
-footer i {
-    margin: 0 5px;
-}
-
 html, body {
     height: 100%;
+    margin: 0;
 }
 
 body {
@@ -89,3 +75,6 @@ footer {
     border-top: 5px solid #3b913d;
 }
 
+footer i {
+    margin: 0 5px;
+}
