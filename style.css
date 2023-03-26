@@ -69,6 +69,16 @@ nav ul li a:hover {
     margin-bottom: 1rem;
 }
 
+.header-image {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+
 .header-content p {
     font-size: 1.2rem;
     color: #fff;
