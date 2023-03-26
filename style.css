@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://source.unsplash.com/random/1600x900?trump');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://source.unsplash.com/random/1600x900?abstract');
     background-size: cover;
     background-position: center;
     height: 60vh;
@@ -21,7 +21,6 @@ header {
 
 nav {
     position: absolute;
-   
     top: 10px;
     right: 20px;
 }
@@ -56,27 +55,29 @@ nav ul li a:hover {
     color: #333;
 }
 
-.header-content {
+.header-image {
     position: absolute;
     bottom: 20px;
     left: 20px;
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
     max-width: 50%;
+    text-align: right;
 }
 
 .header-content h1 {
     font-size: 3rem;
     color: #fff;
     margin-bottom: 1rem;
-}
-
-.header-image {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
-    border: 3px solid #fff;
 }
 
 .header-content p {
